@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "name": "Pre-famulated Amulite baseplate",
+    "description": "All baseplates are exquisitely pre-famulated with a sheer waxing of unvaccinated amulite to increase bi-axial super-positioning in all predetermined stator ranges. ",
+    "price": 10.99,
+    "imgUrl": "/imgs/H.png"
+  },
+  {
+    "id": 2,
+    "name": "Turbo Encabulator",
+    "description": "The BRAND Turbo Encabulator is mounted transgramatically to offload unilateral phase distortions while still maintaining the flexibility to counter the modial interaction of magneto-reluctance. ",
+    "price": 1199,
+    "imgUrl": "/imgs/turboEncabulator.png"
+  },
+  {
+    "id": 3,
+    "name": "Transaxial recombinant spurving bearings",
+    "description": "Specially designed, patent pending spurring bearings are our favorite answer to the aggravating latent semi-spiraling locutor spurs common with GPS automated flying drones.",
+    "price": 1.05,
+    "imgUrl": "/imgs/spurvingBearings.png"
+  },
+  {
+    "id": 4,
+    "name": "Main winding, lotus-o-delta type",
+    "description": "Main windings of semi-permeable MonoPlexity(TM) lotus-o-delta type sterlings allow a carefree automated landing pattern, without the usual horizontal diametric fluctuations.",
+    "price": 14000,
+    "imgUrl": "/imgs/A.png"
+  },
+  {
+    "id": 5,
+    "name": "NoverTrunnions",
+    "description": "BRAND NoverTrunnions are the only acceptable answer to distributed packet LARA enunciation. Without the spline entanglement provided, established Ionospheric subliminal tallying would be impossible.",
+    "price": 10.99,
+    "imgUrl": "/imgs/I.png"
+  },
+  {
+    "id": 6,
+    "name": "Non-reversible Tremie pipe",
+    "description": "The BRAND non-reversible Tremie pipe is the classic answer to check-valve reluctance in open-air, free-landing without biometric linear soft substitutions.",
+    "price": 1199,
+    "imgUrl": "/imgs/J.png"
+  },
+  {
+    "id": 7,
+    "name": "Hydrocoptic Marzlevanes",
+    "description": "Hydroscopic marzlevanes, while preambiguous, are still the best way for three-way communication between controller, receiver, and altitudinal decoupler.",
+    "price": 1.05,
+    "imgUrl": "/imgs/F.png"
+  },
+  {
+    "id": 8,
+    "name": "Conductors and Fluxes (Aeon)",
+    "description": "Condcutors and fluxes are always ready to perform. We offer both Aeon and capacitance types.",
+    "price": 14000,
+    "imgUrl": "/imgs/E.png"
+  }
+]

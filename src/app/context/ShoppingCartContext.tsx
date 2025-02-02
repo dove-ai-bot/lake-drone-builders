@@ -23,13 +23,15 @@ type CartItem = {
   quantity: number
 }
 
-const ShoppingCartContext = createContext({} as ShoppingCartContext)
+export const ShoppingCartContext = createContext({} as ShoppingCartContext)
 
 export function useShoppingCart() {
+  console.log("useShoppingCart")
   return useContext(ShoppingCartContext)
 }
 
 export function ShoppingCartProvider({ children }: ShoppingCartProviderProps) {
+  console.log("ShoppingCartProvider")
   const [isOpen, setIsOpen] = useState(false)
   const [cartItems, setCartItems] = useLocalStorage<CartItem[]>(
     "shopping-cart",

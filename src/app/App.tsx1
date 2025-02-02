@@ -3,7 +3,7 @@
 */
 import { Routes, Route } from "react-router-dom"
 import { Container } from "react-bootstrap"
-import { About } from "./about/page"
+import About from "./about/page"
 import { Home } from "./home/page"
 import { Store } from "./store/page"
 import { Navbar } from "./components/Navbar"

@@ -2,7 +2,6 @@
 import { useEffect, useState } from "react"
 
 export function useLocalStorage<T>(key: string, initialValue: T | (() => T)) {
-  console.log("useLocalStorage")
   const [value, setValue] = useState<T>(() => {
     // Check if we're in a browser environment
     if (typeof window !== "undefined") {

@@ -1,11 +1,8 @@
 "use client"
-import type { Metadata } from "next"
 import { Geist, Geist_Mono } from "next/font/google"
-import { Navbar } from "./components/Navbar"
 import "./globals.css"
 import { ShoppingCartProvider } from "./context/ShoppingCartContext"
-import { Store } from "./components/Store"
-import { ShoppingCart } from "./components/ShoppingCart"
+import { IndustrialNavigation } from "./components/IndustrialNavigation"
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -27,20 +24,14 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode
 }>) {
-  console.log("RootLayout")
   return (
     <html lang="en">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <ShoppingCartProvider>
-          {console.log("StoreStart") ?? null}
-          {/* <Navbar></Navbar> */}
-          {console.log("RootLayout:Navbar After") ?? null}
-          <h1 className="text-3xl">Root Layout:</h1>
-          {/* <Store /> */}
+          <IndustrialNavigation />
           {children}
-          {/* <ShoppingCart isOpen={true} /> */}
         </ShoppingCartProvider>
       </body>
     </html>

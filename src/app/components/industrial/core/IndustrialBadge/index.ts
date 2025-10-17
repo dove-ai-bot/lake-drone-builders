@@ -1,0 +1,1 @@
+export { IndustrialBadge } from './IndustrialBadge';

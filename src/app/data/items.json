@@ -2,57 +2,129 @@
   {
     "id": 1,
     "name": "Pre-famulated Amulite baseplate",
-    "description": "All baseplates are exquisitely pre-famulated with a sheer waxing of unvaccinated amulite to increase bi-axial super-positioning in all predetermined stator ranges. ",
+    "partNumber": "LDB-1-X",
+    "description": "All baseplates are exquisitely pre-famulated with a sheer waxing of unvaccinated amulite to increase bi-axial super-positioning in all predetermined stator ranges.",
     "price": 10.99,
-    "imgUrl": "/imgs/H.png"
+    "imgUrl": "/imgs/pre-famulated-amulite-baseplate.png",
+    "specifications": {
+      "Material": "Unvaccinated Amulite",
+      "Famulation Level": "Pre-Complete",
+      "Bi-Axial Rating": "99.7%",
+      "Stator Range": "±45°"
+    },
+    "certifications": ["ISO 9001:2015", "MIL-SPEC-4077", "HAZMAT Level 3"],
+    "stockStatus": "IN STOCK"
   },
   {
     "id": 2,
     "name": "Turbo Encabulator",
-    "description": "The BRAND Turbo Encabulator is mounted transgramatically to offload unilateral phase distortions while still maintaining the flexibility to counter the modial interaction of magneto-reluctance. ",
+    "partNumber": "LDB-2-X",
+    "description": "The BRAND Turbo Encabulator is mounted transgramatically to offload unilateral phase distortions while still maintaining the flexibility to counter the modial interaction of magneto-reluctance.",
     "price": 1199,
-    "imgUrl": "/imgs/turboEncabulator.png"
+    "imgUrl": "/imgs/turbo-encabulator.png",
+    "specifications": {
+      "Phase Distortion": "Unilateral",
+      "Mounting": "Transgramatic",
+      "Magneto-Reluctance": "Countered",
+      "Power Rating": "2.21 GW"
+    },
+    "certifications": ["ISO 14001:2015", "CE Mark", "FCC Part 15", "UL Listed"],
+    "stockStatus": "LIMITED SUPPLY"
   },
   {
     "id": 3,
     "name": "Transaxial recombinant spurving bearings",
+    "partNumber": "LDB-3-X",
     "description": "Specially designed, patent pending spurring bearings are our favorite answer to the aggravating latent semi-spiraling locutor spurs common with GPS automated flying drones.",
     "price": 1.05,
-    "imgUrl": "/imgs/spurvingBearings.png"
+    "imgUrl": "/imgs/transaxial-recombinant-spurving-bearings.png",
+    "specifications": {
+      "Bearing Type": "Spurving",
+      "Axis Configuration": "Trans-Recombinant",
+      "Spiral Prevention": "98.3%",
+      "GPS Interference": "Minimal"
+    },
+    "certifications": ["MIL-STD-810G", "ISO 3103:1980"],
+    "stockStatus": "IN STOCK"
   },
   {
     "id": 4,
     "name": "Main winding, lotus-o-delta type",
+    "partNumber": "LDB-4-X",
     "description": "Main windings of semi-permeable MonoPlexity(TM) lotus-o-delta type sterlings allow a carefree automated landing pattern, without the usual horizontal diametric fluctuations.",
     "price": 14000,
-    "imgUrl": "/imgs/A.png"
+    "imgUrl": "/imgs/main-winding-lotus-o-delta-type.png",
+    "specifications": {
+      "Winding Type": "Lotus-O-Delta",
+      "Permeability": "Semi",
+      "MonoPlexity™": "Sterling Grade",
+      "Fluctuation Control": "±0.001mm"
+    },
+    "certifications": ["AS9100D", "ITAR Compliant", "ISO 45001:2018"],
+    "stockStatus": "SPECIAL ORDER"
   },
   {
     "id": 5,
     "name": "NoverTrunnions",
+    "partNumber": "LDB-5-X",
     "description": "BRAND NoverTrunnions are the only acceptable answer to distributed packet LARA enunciation. Without the spline entanglement provided, established Ionospheric subliminal tallying would be impossible.",
     "price": 10.99,
-    "imgUrl": "/imgs/I.png"
+    "imgUrl": "/imgs/novertrunnions.png",
+    "specifications": {
+      "Packet Distribution": "LARA Compatible",
+      "Spline Entanglement": "Maximum",
+      "Ionospheric Rating": "Grade A",
+      "Tallying Accuracy": "99.999%"
+    },
+    "certifications": ["IEEE 802.11ax", "MIL-SPEC-1337"],
+    "stockStatus": "IN STOCK"
   },
   {
     "id": 6,
     "name": "Non-reversible Tremie pipe",
+    "partNumber": "LDB-6-X",
     "description": "The BRAND non-reversible Tremie pipe is the classic answer to check-valve reluctance in open-air, free-landing without biometric linear soft substitutions.",
     "price": 1199,
-    "imgUrl": "/imgs/J.png"
+    "imgUrl": "/imgs/non-reversible-tremie-pipe.png",
+    "specifications": {
+      "Flow Direction": "Non-Reversible",
+      "Valve Reluctance": "Zero",
+      "Operating Pressure": "3000 PSI",
+      "Biometric Compliance": "N/A"
+    },
+    "certifications": ["ASME B31.3", "API 6D", "NSF-61"],
+    "stockStatus": "IN STOCK"
   },
   {
     "id": 7,
     "name": "Hydrocoptic Marzlevanes",
+    "partNumber": "LDB-7-X",
     "description": "Hydroscopic marzlevanes, while preambiguous, are still the best way for three-way communication between controller, receiver, and altitudinal decoupler.",
     "price": 1.05,
-    "imgUrl": "/imgs/F.png"
+    "imgUrl": "/imgs/hydrocoptic-marzlevanes.png",
+    "specifications": {
+      "Communication Channels": "3-Way",
+      "Preambiguity Level": "Moderate",
+      "Hydrocoptic Index": "7.3",
+      "Altitude Range": "0-50,000 ft"
+    },
+    "certifications": ["FAA TSO-C129a", "MIL-STD-188"],
+    "stockStatus": "LIMITED SUPPLY"
   },
   {
     "id": 8,
     "name": "Conductors and Fluxes (Aeon)",
-    "description": "Condcutors and fluxes are always ready to perform. We offer both Aeon and capacitance types.",
+    "partNumber": "LDB-8-X",
+    "description": "Conductors and fluxes are always ready to perform. We offer both Aeon and capacitance types.",
     "price": 14000,
-    "imgUrl": "/imgs/E.png"
+    "imgUrl": "/imgs/conductors-and-fluxes-aeon.png",
+    "specifications": {
+      "Type": "Aeon Series",
+      "Conductivity": "Superlative",
+      "Flux Capacity": "∞",
+      "Temperature Range": "-273°C to 5778K"
+    },
+    "certifications": ["ISO/IEC 17025", "NIST Traceable", "Q-Level Clearance Required"],
+    "stockStatus": "RESTRICTED ACCESS"
   }
 ]

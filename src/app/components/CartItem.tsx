@@ -1,5 +1,6 @@
 "use client"
-import { Button, Stack } from "react-bootstrap"
+// Bootstrap imports removed - components need rebuilding with Tailwind
+import Image from "next/image"
 import { useShoppingCart } from "../context/ShoppingCartContext"
 import storeItems from "../data/items.json"
 import { formatCurrency } from "../utilities/formatCurrency"
@@ -10,38 +11,39 @@ type CartItemProps = {
 }
 
 export function CartItem({ id, quantity }: CartItemProps) {
-  console.log("CartItem")
   const { removeFromCart } = useShoppingCart()
   const item = storeItems.find((i) => i.id === id)
   if (item == null) return null
   return (
-    <Stack direction="horizontal" gap={2} className="d-flex">
-      <img
+    <div className="flex items-center gap-2">
+      <Image
         src={item.imgUrl}
-        style={{ width: "125px", height: "75px", objectFit: "cover" }}
+        alt={item.name}
+        width={125}
+        height={75}
+        style={{ objectFit: "cover" }}
       />
-      <div className="me-auto">
+      <div className="flex-1">
         <div>
           {item.name}{" "}
           {quantity > 1 && (
-            <span className="text-muted" style={{ fontSize: ".65rem" }}>
+            <span className="text-gunmetal-400 text-xs">
               x{quantity}
             </span>
           )}
         </div>
-        <div className="text-muted" style={{ fontSize: ".75rem" }}>
+        <div className="text-gunmetal-400 text-sm">
           {formatCurrency(item.price)}
         </div>
       </div>
 
       <div>{formatCurrency(item.price * quantity)}</div>
-      <Button
-        variant="outline-danger"
-        size="sm"
+      <button
+        className="bg-danger hover:bg-red-600 text-white px-3 py-1 rounded text-sm"
         onClick={() => removeFromCart(item.id)}
       >
         &times;
-      </Button>
-    </Stack>
+      </button>
+    </div>
   )
 }

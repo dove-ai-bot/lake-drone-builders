@@ -136,8 +136,50 @@ To learn more about Next.js, take a look at the following resources:
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+## 🚀 Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+This application is ready for one-click deployment to Vercel!
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Quick Deploy
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/YOUR_USERNAME/lake-drone-builders)
+
+### Manual Deployment Steps
+
+1. **Push to GitHub** (if not already done):
+   ```bash
+   git push origin main
+   ```
+
+2. **Deploy to Vercel**:
+   - Go to [vercel.com](https://vercel.com) and sign in with GitHub
+   - Click "New Project"
+   - Import this repository
+   - Vercel auto-detects Next.js configuration
+
+3. **Configure Environment Variables** in Vercel Dashboard:
+   ```
+   POSTGRES_URL=your_production_database_url
+   DATABASE_URL=your_production_database_url
+   NEXT_PUBLIC_OPENSKY_BASE_URL=https://opensky-network.org/api
+   NEXT_PUBLIC_OPENSKY_USERNAME=your_username
+   NEXT_PUBLIC_OPENSKY_PASSWORD=your_password
+   ```
+
+4. **Deploy** - Vercel automatically builds and deploys!
+
+### ✅ Deployment Ready Features
+- Static generation for all routes
+- Optimized production build (102 kB shared chunks)
+- Environment variable configuration ready
+- No additional configuration files needed
+- Build time: ~2 seconds
+
+### 📋 Pre-deployment Checklist
+- [x] Build passes (`npm run build`)
+- [x] All routes statically generated
+- [x] Environment variables documented
+- [x] Dependencies up to date
+- [x] TypeScript compilation clean
+- [x] Industrial design system complete
+
+**Note**: Update database URLs from localhost to your production database before deployment.

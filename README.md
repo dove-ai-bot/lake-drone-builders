@@ -141,7 +141,7 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 This application is ready for one-click deployment to Vercel!
 
 ### Quick Deploy
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/YOUR_USERNAME/lake-drone-builders)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/tjdove/lake-drone-builders)
 
 ### Manual Deployment Steps
 

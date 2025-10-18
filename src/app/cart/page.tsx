@@ -1,6 +1,6 @@
 "use client"
 import { useShoppingCart } from "../context/ShoppingCartContext"
-import { CartItem } from "../components/CartItem"
+import { ComplianceCartItem } from "../components/ComplianceCartItem"
 import storeItems from "../data/items.json"
 import { formatCurrency } from "../utilities/formatCurrency"
 
@@ -22,7 +22,7 @@ export default function CartPage() {
         <>
           <div className="space-y-4 mb-8">
             {cartItems.map((item) => (
-              <CartItem key={item.id} {...item} />
+              <ComplianceCartItem key={item.id} {...item} />
             ))}
           </div>
           

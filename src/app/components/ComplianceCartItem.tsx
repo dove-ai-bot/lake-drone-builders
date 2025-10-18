@@ -35,26 +35,15 @@ export function ComplianceCartItem({ id, quantity }: ComplianceCartItemProps) {
 
   return (
     <div className="bg-steel-800/50 border border-steel-600 rounded-lg p-4 hover:bg-steel-800/70 transition-colors duration-200">
-      <div className="flex gap-4">
-        {/* Product Image */}
-        <div className="flex-shrink-0">
-          <Image
-            src={item.imgUrl}
-            alt={item.name}
-            width={80}
-            height={64}
-            className="w-20 h-16 object-cover rounded border border-steel-500 bg-steel-700"
-          />
-        </div>
-
-        {/* Item Details */}
-        <div className="flex-1 min-w-0 space-y-2">
+      <div className="flex items-start gap-3 sm:gap-6">
+        {/* Item Details - Layout Fixed */}
+        <div className="flex-1 min-w-0 space-y-2 overflow-hidden">
           {/* Part Number & Name */}
-          <div>
+          <div className="space-y-1">
             <div className="text-xs font-mono text-steel-400 uppercase tracking-wider">
               PART #{item.partNumber}
             </div>
-            <h4 className="text-sm font-semibold text-steel-100 leading-tight">
+            <h4 className="text-sm font-semibold text-steel-100 leading-tight break-words">
               {item.name}
             </h4>
           </div>
@@ -98,7 +87,7 @@ export function ComplianceCartItem({ id, quantity }: ComplianceCartItemProps) {
           </div>
 
           {/* Price & Quantity Controls */}
-          <div className="flex items-center justify-between pt-2">
+          <div className="flex flex-col gap-3 pt-3 sm:grid sm:grid-cols-[minmax(0,1fr)_minmax(0,1.2fr)] sm:items-start sm:gap-4 lg:flex lg:flex-row lg:items-center lg:justify-between">
             <div className="space-y-1">
               <div className="text-xs text-steel-400 font-mono">UNIT PRICE</div>
               <div className="text-sm font-bold text-steel-100">
@@ -106,7 +95,7 @@ export function ComplianceCartItem({ id, quantity }: ComplianceCartItemProps) {
               </div>
             </div>
 
-            <div className="flex items-center gap-3">
+            <div className="flex w-full flex-col gap-3 sm:w-auto sm:justify-self-end lg:flex-row lg:items-center lg:gap-4">
               <IndustrialQuantityControl id={id} quantity={quantity} />
               
               <div className="text-right space-y-1">
@@ -151,6 +140,17 @@ export function ComplianceCartItem({ id, quantity }: ComplianceCartItemProps) {
               </div>
             )}
           </div>
+        </div>
+
+        {/* Product Image */}
+        <div className="flex-shrink-0">
+          <Image
+            src={item.imgUrl}
+            alt={item.name}
+            width={104}
+            height={78}
+            className="h-auto max-h-24 w-[6.5rem] rounded border border-steel-500 bg-steel-700 object-cover"
+          />
         </div>
       </div>
     </div>
